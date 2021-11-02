@@ -1,0 +1,39 @@
+extends layouts/layout 
+
+block content 
+  //- Section C
+  .con-margin.card
+    .sections
+      .nav.flex.flx-spc-btw
+        a(href="/") 
+          i.icon &lt;
+        header 
+          h1.logo ChatPal
+        .z
+        
+      include includes/message
+
+      form(method="POST")
+        .form-items
+          .form-item
+            label(for="name") Name
+            .con-input
+              input(type="text" name="name" id="name" autocomplete="off" value= name)
+          .form-item 
+            label(for="email") Email
+            .con-input
+              input(type="email" name="email" id="email" autocomplete="off" spellcheck="false" value= email)
+          .form-item 
+            label(for="password") Password
+            .con-input
+              input(type="password" name="password" id="password" value= password)
+          .form-item 
+            label(for="password2") Confirm Password
+            .con-input
+              input(type="password" name="password2" id="password2" value= password2)
+          .form-item 
+            button.btn(type="submit") Sign Up
+          .form-item 
+            p Already have an account?
+              a(href="/signin") &nbsp;sign in 
+              |instead.  

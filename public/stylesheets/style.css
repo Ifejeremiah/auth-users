@@ -1,0 +1,146 @@
+/* Add or format global styling here */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+  border: 0;
+  outline: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.25s;
+}
+
+:root {
+  --blue-color: rgb(52, 35, 149);
+}
+
+/* Utilites */
+.con-margin {
+  margin: 40px auto;
+}
+
+.sections {
+  padding: 20px;
+}
+
+.card {
+  width: 400px;
+  border: 1px solid rgb(180, 176, 176);
+  border-radius: 0.25rem;
+}
+
+.card:hover {
+  border: transparent;
+  transform: scale(1.02);
+  box-shadow: 0 0 8px rgb(197, 194, 194);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flx-col {
+  flex-direction: column;
+}
+
+.flx-spc-btw {
+  justify-content: space-between;
+}
+
+.btn {
+  background: var(--blue-color);
+  color: #fff;
+  margin: 8px 0;
+  border-radius: 0.25rem;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn:hover {
+  opacity: 0.85;
+  transform: scale(0.99);
+}
+
+h1.logo {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: var(--blue-color);
+  cursor: default;
+}
+
+.error {
+  background: rgb(248, 67, 67);
+}
+
+.success {
+  background: rgb(10, 187, 10);
+}
+
+.con-msg .msg {
+  color: #fff;
+  padding: 10px 14px;
+  margin: 8px 0;
+  border-radius: 0.20rem;
+}
+
+.con-msg .msg .icon {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.nav i.icon {
+  font-size: 1.5rem;
+  padding: 8px;
+}
+
+.form-items .form-item {
+  margin: 10px 0;
+}
+
+.form-items .form-item .con-input {
+  margin: 4px 0;
+}
+
+.form-items .con-input input {
+  border: 1px solid rgb(184, 183, 183);
+  width: 100%;
+  padding: 6px;
+  border-radius: 0.25rem;
+}
+
+.form-items .con-input input:focus {
+  border: 1px solid rgb(65, 64, 64);
+}
+
+.form-items .form-item .btn {
+  margin-top: 14px;
+  font-size: 1rem;
+}
+
+.form-items .form-item p a {
+  color: var(--blue-color);
+  font-weight: 500;
+}
+
+/* Section A */
+.section-a .links {
+  width: 100%;
+}
+
+.section-a h1 {
+  margin: 40px 0;
+}
+
+/* Dashboards */
+header.dashboards h1 {
+  color: var(--blue-color);
+  font-weight: 500;
+}
+
+header.dashboards h1.message {
+  color: #333;
+}

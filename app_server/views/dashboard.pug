@@ -1,0 +1,12 @@
+extends layouts/layout 
+
+block content 
+
+  //- Dashboards 
+  .sections
+    header.dashboards 
+      nav.user-info.flex.flx-spc-btw
+        h1 Hello, #{username}!
+        a(href="/signout")
+          .btn Signout
+      h1.message Welcome to Dashboards

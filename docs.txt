@@ -1,0 +1,12 @@
+1. Run `npm install` to install dependencies.
+
+2. Run `npm start` to start server or run `npm run dev` to start and update changes to server in development mode.
+
+3. Server runs on PORT 4500, you can change PORT by including `app.set('port', <Put PORT number>)` in app.js file.
+
+4. Create an '.env' file, and include your mongodb URI and other secrets in the file.
+    e.g. `DBURI='mongodb://localhost/auth-users' 
+          SECRET='<Include your secret for hashing algorithm>'`
+
+6. You can change or customize the views code and styling. But NOTE, the views codes are assigned variables. Custom views code MUST include SAME variable and data type.
+ 

@@ -1,0 +1,23 @@
+//- Reuseable message display template
+
+- if (success_msg != '')
+  .con-msg 
+    .msg.success.flex.flx-spc-btw
+      p= success_msg
+      .icon x
+- if (errors)
+  each error in errors
+    .con-msg 
+      .msg.error.flex.flx-spc-btw
+        p= error.msg
+        .icon x
+- if (error != '')
+  .con-msg 
+    .msg.error.flex.flx-spc-btw
+      p= error
+      .icon x
+- if (error_msg != '')
+  .con-msg 
+    .msg.error.flex.flx-spc-btw
+      p= error_msg
+      .icon x
