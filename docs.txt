@@ -8,5 +8,5 @@
     e.g. `DBURI='mongodb://localhost/auth-users' 
           SECRET='<Include your secret for hashing algorithm>'`
 
-6. You can change or customize the views code and styling. But NOTE, the views codes are assigned variables. Custom views code MUST include SAME variable and data type.
+5. You can change or customize the views code and styling. But NOTE, the views codes are assigned variables. Custom views code MUST include SAME variable and data type.
  
